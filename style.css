@@ -86,10 +86,7 @@ li a:hover {
     padding:100px 200px;
 }
 
-.main4newsroom {
-    width: 100%;
-    background: rgb(239, 238, 238);
-}
+
 .infogbs,
 .iconga,
 .icongg {
@@ -116,7 +113,10 @@ li a:hover {
     padding: 10px 30px;
     color: rgb(254, 249, 249);
 }
-
+.main4newsroom {
+    width: 100%;
+    background: rgb(239, 238, 238);
+}
 .main4container {
     padding: 100px 200px;
 }
