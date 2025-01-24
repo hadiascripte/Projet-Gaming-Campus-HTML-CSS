@@ -83,9 +83,9 @@ li a:hover {
     justify-content: center;
     background: black;
     color: white;
-    padding:100px 200px;
+    padding: 100px 200px;
+    width: 100%;
 }
-
 
 .infogbs,
 .iconga,
@@ -95,6 +95,7 @@ li a:hover {
     align-items: center;
     text-align: center;
     padding: 15px;
+    width: 100%;
 }
 
 .main3icon h3 {
@@ -122,26 +123,37 @@ li a:hover {
 }
 .headernews {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     padding-bottom: 100px;
 }
 .left-part {
     width: 70%;
 }
+.left-part h2 {
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+}
+.left-part p {
+    font-size: 1rem;
+    font-style: bold;
+    line-height: 1.5;
+}
 .right-part {
     width: 30%;
+}
+.right-part button {
+    letter-spacing: 1.5px;
+    padding: 10px 20px;
+    font-size: 0.7rem;
+    font-style: bold;
 }
 .news3 {
     display: flex;
     justify-content: space-between;
 }
-.right-part button{
-    letter-spacing: 1.5px;
-    padding: 10px 20px;
-    font-size: 0.8rem;
-    font-style: bold;
-}
+
 .info1,
 .info2,
 .info3 {
@@ -165,37 +177,86 @@ li a:hover {
 .infobasmain {
     display: flex;
     justify-content: center;
-    padding: 200px;
+    padding: 0px 180px;
 }
 .listinfo {
     display: flex;
+    gap: 20px;
+    padding: 30px;
 }
-.logobasmain,.infospratiquesbasmain,
+.infospratiquesbasmain,
 .parentsbasmain,
 .contactbasmain {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    width: 30%;
+    width: 100%;
 }
-.listinfo img{
-width: 80%;
-
+.logobasmain {
+    display: flex;
+    align-items: center;
 }
 .listinfo h3 {
     font-size: 1rem;
     font-style: bold;
-    padding:30px 0;
+    padding: 30px 0;
 }
 .listinfo p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-style: bold;
     line-height: 1.5;
-
 }
 .listinfo a {
     text-decoration: none;
+    font-style: bold;
     color: rgb(106, 7, 151);
+    font-size: 0.8rem;
+    line-height: 2;
+}
+hr {
+    margin: 0 250px;
+}
+.avantfooter {
+    display: flex;
+    padding: 30px 160px;
+    width: 100%;
+}
+.avantfootertxt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+}
+.avantfooter h4,
+p {
     font-size: 1rem;
-    line-height:2.2;
+    font-style: bold;
+}
+.avantfooterimages {
+    width: 70%;
+}
+.avantfooterimages img {
+    margin: 0 12px;
+    width: 8%;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items: center;
+    background: black;
+    padding: 20px 200px;
+    gap: 20px;
+}
+.footertitle {
+    color: white;
+    font-size: 0.9rem;
+}
+.footerretombees img {
+    padding: 0 5px;
+}
+.footerretombees {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
 }
