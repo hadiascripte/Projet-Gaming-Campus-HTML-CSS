@@ -267,8 +267,6 @@ footer {
     justify-content: center;
     gap: 30px;
 }
-.footerretombees img {
-}
 
 @media screen and (max-width: 1230px) {
     .headernews {
@@ -341,9 +339,10 @@ footer {
         margin: auto;
         width: 70%;
     }
-    .news3 h3,p,a {
+    .news3 h3,
+    p,
+    a {
         text-align: center;
-
     }
     .infobasmain,
     .avantfooter,
@@ -351,15 +350,13 @@ footer {
         display: none;
     }
     .footerretombees {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr); /* 5 colonnes de taille égale */
-        align-items: start;
-        /* grid-gap: 10px; Espace entre les images */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
-    .footerretombees img {
-    }
-    .footerretombees img {
-        width: 100%;
-    
+    .footerretombees img{
+        width: 10%;
+
     }
 }
