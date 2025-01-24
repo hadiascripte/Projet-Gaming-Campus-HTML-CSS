@@ -200,7 +200,7 @@ li a:hover {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    width: 100%;
+    width: 25%;
 }
 .logobasmain {
     display: flex;
@@ -360,5 +360,6 @@ footer {
     }
     .footerretombees img {
         width: 100%;
+    
     }
 }
