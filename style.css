@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..400;1,14..32,100..900&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +13,7 @@ header {
     display: flex;
     justify-content: space-around;
     background: white;
+    padding: 5px 15%;
 }
 ul {
     display: flex;
@@ -37,28 +38,32 @@ li a:hover {
     padding-top: 20px;
 }
 #language {
-    border-radius: 15px;
+    border-radius: 30px;
     background: rgb(212, 210, 210);
-    padding: 5px;
+    padding: 15px;
 }
 
 .main1 {
     display: flex;
     justify-content: space-around;
     background: url(./img/bg.jpg) no-repeat center center/cover fixed;
-    padding: 50px;
+    padding: 50px 15%;
 }
 .main1logo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.main1logo img {
+    width: 80%;
+}
 .main1logo p {
     color: white;
     margin: 20px;
     padding: 10px;
-    font-size: 1.6rem;
-    font-style: bold;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 .main1logo button {
     color: white;
@@ -67,26 +72,24 @@ li a:hover {
     background: none;
     border: 1px solid white;
     letter-spacing: 3px;
-    font-style: bold;
 }
 .main2txt {
     background: white;
-    padding: 60px 200px;
+    padding: 50px 15%;
 }
 .main2txt p {
     text-align: center;
-    font-size: 1.2rem;
-    font-style: bold;
+    font-size: 1rem;
+    font-weight: bold;
 }
 .main3icon {
     display: flex;
     justify-content: center;
     background: black;
     color: white;
-    padding: 100px 200px;
-    width: 100%;
+    padding: 50px 15%;
+    gap: 50px;
 }
-
 .infogbs,
 .iconga,
 .icongg {
@@ -95,16 +98,15 @@ li a:hover {
     align-items: center;
     text-align: center;
     padding: 15px;
-    width: 100%;
 }
 
 .main3icon h3 {
-    font-size: 1rem;
-    font-style: bold;
+    font-size: 0.9rem;
+    font-weight: bold;
     padding: 40px 10px 10px 10px;
 }
 .main3icon p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -119,11 +121,11 @@ li a:hover {
     background: rgb(239, 238, 238);
 }
 .main4container {
-    padding: 100px 200px;
+    padding: 50px 15%;
 }
 .headernews {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     padding-bottom: 100px;
 }
@@ -137,7 +139,7 @@ li a:hover {
 }
 .left-part p {
     font-size: 1rem;
-    font-style: bold;
+    font-weight: bold;
     line-height: 1.5;
 }
 .right-part {
@@ -147,7 +149,7 @@ li a:hover {
     letter-spacing: 1.5px;
     padding: 10px 20px;
     font-size: 0.7rem;
-    font-style: bold;
+    font-weight: bold;
 }
 .news3 {
     display: flex;
@@ -162,22 +164,28 @@ li a:hover {
     width: 25%;
     gap: 20px;
 }
-.news3 a {
-    margin-top: auto;
-    text-decoration: none;
-    font-size: 0.8rem;
+.news3 h3 {
+    font-size: 1rem;
+    font-weight: bold;
 }
+
 .news3 p {
     font-size: 0.9rem;
-    font-style: bold;
+    font-weight: bold;
 }
 .news3 img {
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.531);
 }
+.news3 a {
+    margin-top: auto;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
 .infobasmain {
     display: flex;
     justify-content: center;
-    padding: 0px 180px;
+    padding: 50px 15%;
 }
 .listinfo {
     display: flex;
@@ -198,23 +206,23 @@ li a:hover {
 }
 .listinfo h3 {
     font-size: 1rem;
-    font-style: bold;
+    font-weight: bold;
     padding: 30px 0;
 }
 .listinfo p {
     font-size: 0.8rem;
-    font-style: bold;
+    font-weight: bold;
     line-height: 1.5;
 }
 .listinfo a {
     text-decoration: none;
-    font-style: bold;
+    font-weight: bold;
     color: rgb(106, 7, 151);
     font-size: 0.8rem;
     line-height: 2;
 }
 hr {
-    margin: 0 250px;
+    margin: 0 15%;
 }
 .avantfooter {
     display: flex;
@@ -230,7 +238,7 @@ hr {
 .avantfooter h4,
 p {
     font-size: 1rem;
-    font-style: bold;
+    font-weight: bold;
 }
 .avantfooterimages {
     width: 70%;
@@ -242,21 +250,17 @@ p {
 footer {
     display: flex;
     flex-direction: column;
-    justify-content: ;
     align-items: center;
     background: black;
-    padding: 20px 200px;
+    padding: 20px 15%;
     gap: 20px;
 }
 .footertitle {
     color: white;
-    font-size: 0.9rem;
-}
-.footerretombees img {
-    padding: 0 5px;
+    font-size: 1rem;
 }
 .footerretombees {
     display: flex;
     align-items: flex-start;
-    gap: 10px;
+    gap: 30px;
 }
