@@ -6,6 +6,7 @@
 }
 body {
     width: 100%;
+    min-width: 500px;
     height: 100vh;
     font-family: inter;
 }
@@ -13,7 +14,6 @@ header {
     display: flex;
     justify-content: space-around;
     background: white;
-    padding: 5px 15%;
 }
 ul {
     display: flex;
@@ -35,7 +35,7 @@ li a:hover {
     color: rgb(94, 94, 214);
     border-top: 5px solid rgb(94, 94, 214);
     /* Permet de mettre la bordure en haut du parent! Merci Zak !!!! */
-    padding-top: 20px;
+    padding-top: 30px;
 }
 #language {
     border-radius: 30px;
@@ -45,7 +45,7 @@ li a:hover {
 
 .main1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background: url(./img/bg.jpg) no-repeat center center/cover fixed;
     padding: 50px 15%;
 }
@@ -64,6 +64,7 @@ li a:hover {
     padding: 10px;
     font-size: 1.2rem;
     font-weight: bold;
+    text-align: center;
 }
 .main1logo button {
     color: white;
@@ -97,7 +98,7 @@ li a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 .main3icon h3 {
@@ -164,17 +165,18 @@ li a:hover {
     width: 25%;
     gap: 20px;
 }
+.news3 img {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.531);
+}
 .news3 h3 {
     font-size: 1rem;
     font-weight: bold;
+    text-align: left;
 }
 
 .news3 p {
     font-size: 0.9rem;
     font-weight: bold;
-}
-.news3 img {
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.531);
 }
 .news3 a {
     margin-top: auto;
@@ -190,8 +192,8 @@ li a:hover {
 .listinfo {
     display: flex;
     gap: 20px;
-    padding: 30px;
 }
+.logobasmain,
 .infospratiquesbasmain,
 .parentsbasmain,
 .contactbasmain {
@@ -262,5 +264,101 @@ footer {
 .footerretombees {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     gap: 30px;
+}
+.footerretombees img {
+}
+
+@media screen and (max-width: 1230px) {
+    .headernews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .left-part {
+        text-align: center;
+    }
+    .right-part {
+        text-align: center;
+    }
+    .info1,
+    .info2,
+    .info3 {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        gap: 20px;
+    }
+
+    .footerretombees img {
+        width: 10%;
+    }
+}
+@media screen and (max-width: 990px) {
+    body {
+    }
+    header {
+        display: none;
+    }
+    .main3icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .headernews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .headernews h2 {
+        font-size: 0.9rem;
+    }
+    .headernews p {
+        font-size: 1rem;
+    }
+    .right-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .news3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .info1,
+    .info2,
+    .info3 {
+        width: 100%;
+    }
+    .news3 img {
+        margin: auto;
+        width: 70%;
+    }
+    .news3 h3,p,a {
+        text-align: center;
+
+    }
+    .infobasmain,
+    .avantfooter,
+    hr {
+        display: none;
+    }
+    .footerretombees {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); /* 5 colonnes de taille égale */
+        align-items: start;
+        /* grid-gap: 10px; Espace entre les images */
+    }
+    .footerretombees img {
+    }
+    .footerretombees img {
+        width: 100%;
+    }
 }
