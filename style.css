@@ -352,14 +352,14 @@ footer {
     .news3 h3,
     p,
     a {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         text-align: center;
     }
     .news3 p {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .news3 a{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .infobasmain,
     .avantfooter,
@@ -373,6 +373,6 @@ footer {
         align-items: center;
     }
     .footerretombees img {
-        width: 15%;
+        width: 10%;
     }
 }
