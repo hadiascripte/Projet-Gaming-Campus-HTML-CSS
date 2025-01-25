@@ -347,19 +347,19 @@ footer {
     }
     .news3 img {
         margin: auto;
-        width: 70%;
+        width: 75%;
     }
     .news3 h3,
     p,
     a {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: center;
     }
     .news3 p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .news3 a{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .infobasmain,
     .avantfooter,
