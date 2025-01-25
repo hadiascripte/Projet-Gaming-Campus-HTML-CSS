@@ -6,7 +6,7 @@
 }
 body {
     width: 100%;
-    min-width: 500px;
+    min-width: 300px;
     height: 100vh;
     font-family: inter;
 }
@@ -295,7 +295,11 @@ footer {
     }
 }
 @media screen and (max-width: 990px) {
-    body {
+    .main1logo p{
+        font-size: 1.1rem;
+    }
+    .main2txt p {
+        font-size: 1.2rem;
     }
     header {
         display: none;
@@ -306,6 +310,12 @@ footer {
         align-items: center;
         gap: 20px;
     }
+    .main3icon h3 {
+        font-size: 1.3rem;
+    }
+    .main3icon p {
+        font-size: 1.1rem;
+    }
     .headernews {
         display: flex;
         flex-direction: column;
@@ -313,7 +323,7 @@ footer {
         gap: 20px;
     }
     .headernews h2 {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
     .headernews p {
         font-size: 1rem;
@@ -342,7 +352,14 @@ footer {
     .news3 h3,
     p,
     a {
+        font-size: 1.5rem;
         text-align: center;
+    }
+    .news3 p {
+        font-size: 1.2rem;
+    }
+    .news3 a{
+        font-size: 1.2rem;
     }
     .infobasmain,
     .avantfooter,
@@ -355,8 +372,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    .footerretombees img{
-        width: 10%;
-
+    .footerretombees img {
+        width: 15%;
     }
 }
