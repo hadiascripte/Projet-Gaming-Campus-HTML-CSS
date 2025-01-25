@@ -296,10 +296,10 @@ footer {
 }
 @media screen and (max-width: 990px) {
     .main1logo p{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .main2txt p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     header {
         display: none;
@@ -311,10 +311,10 @@ footer {
         gap: 20px;
     }
     .main3icon h3 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .main3icon p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .headernews {
         display: flex;
